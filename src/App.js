@@ -55,7 +55,7 @@ function App() {
    <>
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
-  
+    <p>new feature testing</p>
     </>
   );
 }

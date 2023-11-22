@@ -7,7 +7,8 @@ export default function UpcomingTreks () {
         <div className="bg-zinc-800 
                             border-b-[1px]
                         border-slate-700 
-                            p-4
+                            pb-4
+                            pt-2
                             pl-8
                             font-bold
                             text-yellow-500

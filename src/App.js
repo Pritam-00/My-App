@@ -2,6 +2,7 @@ import React from "react";
 import UpcomingTreks from "./components/UpcomingTreks";
 import TrekCardsBox from "./components/TrekCardsBox";
 import DescriptionBox from "./components/DescriptionBox";
+import CreateNewGroup from "./components/CreateNewGroup";
 
 
 import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
@@ -56,6 +57,7 @@ function App() {
   return (
    <>
     <DescriptionBox />
+    <CreateNewGroup />
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
     </>

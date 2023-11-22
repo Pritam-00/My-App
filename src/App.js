@@ -8,6 +8,8 @@ import CreateNewGroup from "./components/CreateNewGroup";
 import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from './resources/bhrigu-lake.webp';
 import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
+import HeroBanner from "./components/HeroBanner";
+import NavHeader from "./components/NavHeader";
 
 
 const mockdata = [
@@ -53,9 +55,10 @@ const mockdata = [
 
 function App() {
   
-  console.log(mockdata[0])
   return (
    <>
+    <NavHeader />
+    <HeroBanner />
     <DescriptionBox />
     <CreateNewGroup />
     <UpcomingTreks />

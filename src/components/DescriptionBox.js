@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function DescriptionBox () {
 
+        const [isClicked, setIsClicked] = useState(true)
+
+        function handleClick () {
+            setIsClicked(condition => !condition)
+        }
     return (
-        <div className="bg-red-500 p-6">
-            <h2 className="uppercase font-bold text-4xl">The Idea That Created</h2>
-            <p className="text-white my-8">
+        <>
+        <div className="bg-red-500 relative">
+            <h2 className="uppercase font-bold text-4xl p-6">The Idea That Created</h2>
+            <p className={`text-white m-4 ${isClicked? 'pb-20':'max-h-96 overflow-hidden' }`}>
                 
                 The inception of “The Trail Makers” emerged from a profound love for the 
                 Indian Himalayas and a burning desire to unearth its hidden treasures. 
@@ -29,7 +35,25 @@ export default function DescriptionBox () {
                 on the belief that true adventure lies beyond the familiar trails,
                 where the spirit of discovery reigns supreme. Our mission was clear 
                 – to lead adventurers into the depths of the Indian Himalayas, to witness 
-                landscapes rarely seen, and to create memories that would last a lifetime.</p>
+                landscapes rarely seen, and to create memories that would last a lifetime.</p>      
+        
+                <div className={`text-center  bottom-0 left-0 right-0
+                                absolute
+                                ${isClicked ? 'pt-16 bg-gradient-to-t from-white to-transparent'
+                                :'pt-40 bg-gradient-to-t from-black via-black via-5% to-transparent'}`}>
+
+                    <button 
+
+                        onClick={handleClick}
+                    
+                        className={`font-semibold p-4 ${isClicked ? 'text-black' : 'text-white'}`}>
+                        
+                        {isClicked?'Read Less':'Read More'}
+                        
+                    </button>
+                </div>
         </div>
+        
+    </>
     )
 }

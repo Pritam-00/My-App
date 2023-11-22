@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function DescriptionBox () {
 
-        const [isClicked, setIsClicked] = useState(true)
+        const [isClicked, setIsClicked] = useState(false)
 
         function handleClick () {
             setIsClicked(condition => !condition)

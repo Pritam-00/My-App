@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CreateNewGroupButton () {
+export default function CreateNewGroup () {
 
 
     return (
@@ -43,7 +43,7 @@ export default function CreateNewGroupButton () {
                         text-center 
                         text-sm pt-2
                         px-4 py-2">
-                write a deatiled process of creating in group, Create your own customized trek group
+                write a deatiled process of creating group, Create your own customized trek group
                 on feasible dates 
         </p>
        </div> 

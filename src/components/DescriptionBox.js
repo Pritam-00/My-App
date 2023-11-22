@@ -11,7 +11,7 @@ export default function DescriptionBox () {
         <>
         <div className="bg-red-500 relative">
             <h2 className="uppercase font-bold text-4xl p-6">The Idea That Created</h2>
-            <p className={`text-white m-4 ${isClicked? 'pb-20':'max-h-96 overflow-hidden' }`}>
+            <p className={`text-white m-4 ${isClicked? 'pb-20':'max-h-96 overflow-hidden ' }`}>
                 
                 The inception of “The Trail Makers” emerged from a profound love for the 
                 Indian Himalayas and a burning desire to unearth its hidden treasures. 

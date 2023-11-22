@@ -14,7 +14,7 @@ export default function TrekCardsBox ({mockdata}) {
 
     return (
         <div className="flex 
-                        overflow-x-auto 
+                        overflow-x-auto
                         snap-start
                         bg-zinc-800">
                 <TrekCard {...mockdata[0]} onButtonClick={() => handleClick('0')} isOpen={reading==='0'? isOpen:false}/>

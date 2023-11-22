@@ -1,6 +1,6 @@
 import React from "react";
 import BookNowButton from "./BookNowButton";
-import { useState } from "react";
+
 
 export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, trekName, trekState, trekDescription, trekDistance, trekDuration, trekDifficulty, trekCost, trekInfo}) {
 
@@ -22,20 +22,21 @@ export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, tre
             <div className="border-b-[1px]
                           border-slate-700 
                             p-2">
-                <h2 className=" pl-1 
-                                font-semibold 
-                                uppercase
-                                text-green-100 
-                                inline-block">{trekName}</h2>
-                <h4 className=" px-2 ml-4 text-[10px]
-                                text-center
-                                font-medium
-                                uppercase
-                                inline-block 
-                                rounded-lg
-                                bg-slate-700
-                                text-blue-300
-                                ">{trekState}</h4>
+                  <div className="flex items-center">
+                    <h2 className=" pl-1 
+                                    font-semibold 
+                                    uppercase
+                                    text-green-100 
+                                    ">{trekName}</h2>
+                    <h4 className=" px-2 ml-4 text-[10px]
+                                    text-center
+                                    font-medium
+                                    uppercase
+                                    rounded-lg
+                                    bg-slate-700
+                                    text-blue-300
+                                    ">{trekState}</h4>
+                </div>
                 <p className="  text-xs 
                                 p-1 
                                 font-extralight 
@@ -71,7 +72,7 @@ export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, tre
                     <h4 className="text-xs text-yellow-400">{trekInfo}</h4>
                 </div>
                 
-                <BookNowButton onButtonClick={onButtonClick} isOpen={isOpen} />
+                <BookNowButton onButtonClick={onButtonClick} isOpen={isOpen} buttonName='Book Now' /> 
             </div>
    
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BookNowButton ({onButtonClick, isOpen}) {
+export default function BookNowButton ({onButtonClick, isOpen, buttonName}) {
     
     return (
         <div className="relative my-auto">
@@ -13,7 +13,7 @@ export default function BookNowButton ({onButtonClick, isOpen}) {
                                         font-medium
                                         bg-sky-600
                                         ">
-                        Book Now
+                        {buttonName}
                     </button>
         
                     {isOpen && (<div className="h-40 w-40

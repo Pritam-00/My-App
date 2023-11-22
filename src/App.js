@@ -1,11 +1,13 @@
 import React from "react";
+import UpcomingTreks from "./components/UpcomingTreks";
 import TrekCardsBox from "./components/TrekCardsBox";
+import DescriptionBox from "./components/DescriptionBox";
 
 
 import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from './resources/bhrigu-lake.webp';
 import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
-import UpcomingTreks from "./components/UpcomingTreks";
+
 
 const mockdata = [
   {
@@ -50,9 +52,10 @@ const mockdata = [
 
 function App() {
   
-
+  console.log(mockdata[0])
   return (
    <>
+    <DescriptionBox />
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
     </>

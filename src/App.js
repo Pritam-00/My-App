@@ -1,6 +1,6 @@
 import React from "react";
-import UpcomingTreks from "./components/UpcomingTreks";
-import TrekCardsBox from "./components/TrekCardsBox";
+import UpcomingTreks from "./components/Up Treks Comp/UpcomingTreks";
+import TrekCardsBox from "./components/Up Treks Comp/TrekCardsBox";
 import DescriptionBox from "./components/DescriptionBox";
 import CreateNewGroup from "./components/CreateNewGroup";
 
@@ -8,8 +8,9 @@ import CreateNewGroup from "./components/CreateNewGroup";
 import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from './resources/bhrigu-lake.webp';
 import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
-import HeroBanner from "./components/HeroBanner";
-import NavHeader from "./components/NavHeader";
+import HeroBanner from "./components/Hero Comp/HeroBanner";
+import NavHeader from "./components/Header Comp/NavHeader";
+import Footer from "./components/Footer Comp/Footer";
 
 
 const mockdata = [
@@ -63,6 +64,7 @@ function App() {
     <CreateNewGroup />
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
+    <Footer />
     </>
   );
 }

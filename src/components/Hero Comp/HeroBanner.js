@@ -1,12 +1,12 @@
 import React from "react";
-import backGround from "../resources/ranisui-lake.jpg"
+import backGround from "../../resources/ranisui-lake.jpg"
 
 export default function HeroBanner () {
     return (
-        <div className="  h-screen bg-cover bg-center p-8 pt-40
+        <div className=" h-[80vh] bg-cover bg-center p-8 pt-40
                          flex flex-col justify-start
                          items-center" style={{backgroundImage: `url(${backGround})`}}> 
-            <h3 className=" uppercase 
+            <h3 className=" uppercase text-center
                             text-white
                             tracking-widest 
                             mb-4">In Search Of Untouched Wilderness

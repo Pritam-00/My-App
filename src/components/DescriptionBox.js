@@ -11,7 +11,7 @@ export default function DescriptionBox () {
         <>
         <div className="bg-red-500 relative">
             <h2 className="uppercase font-bold text-4xl p-6">The Idea That Created</h2>
-            <p className={`text-white m-4 ${isClicked? 'pb-20':'max-h-96 overflow-hidden ' }`}>
+            <p className={`text-white mt-4 mx-4 md:mx-8 md:mr-80 lg:pr-60 ${isClicked? 'pb-20':'max-h-96 overflow-hidden ' }`}>
                 
                 The inception of “The Trail Makers” emerged from a profound love for the 
                 Indian Himalayas and a burning desire to unearth its hidden treasures. 
@@ -40,7 +40,7 @@ export default function DescriptionBox () {
                 <div className={`text-center  bottom-0 left-0 right-0
                                 absolute
                                 ${isClicked ? 'pt-16 bg-gradient-to-t from-white to-transparent'
-                                :'pt-40 bg-gradient-to-t from-black via-black via-5% to-transparent'}`}>
+                                :'pt-48 bg-gradient-to-t from-black via-black via-5% to-transparent'}`}>
 
                     <button 
 

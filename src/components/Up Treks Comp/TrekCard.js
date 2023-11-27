@@ -10,7 +10,7 @@ export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, tre
                         border-slate-700 
                         bg-zinc-900 w-72 
                         flex-shrink-0 rounded-xl
-                        snap-start
+                        
                         ">
 
                 <img 

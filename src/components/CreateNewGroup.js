@@ -5,11 +5,7 @@ export default function CreateNewGroup () {
 
     return (
         <div className="bg-black
-        border-b-[1px]
-       border-slate-700
-       pb-4
-       m-4
-       rounded-2xl">
+       p-4">
         <div className="flex flex-col md:flex-row justify-around 
                         p-4">
             <h3 className="text-white

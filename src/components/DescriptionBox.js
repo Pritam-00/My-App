@@ -39,7 +39,7 @@ export default function DescriptionBox () {
         
                 <div className={`text-center  bottom-0 left-0 right-0
                                 absolute
-                                ${isClicked ? 'pt-16 bg-gradient-to-t from-white to-transparent'
+                                ${isClicked ? ''
                                 :'pt-48 bg-gradient-to-t from-black via-black via-5% to-transparent'}`}>
 
                     <button 

@@ -11,6 +11,7 @@ import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327
 import HeroBanner from "./components/Hero Comp/HeroBanner";
 import NavHeader from "./components/Header Comp/NavHeader";
 import Footer from "./components/Footer Comp/Footer";
+import Content1 from "./components/Content1";
 
 
 const mockdata = [
@@ -58,13 +59,14 @@ function App() {
   
   return (
    <>
-    <NavHeader />
     <HeroBanner />
     <DescriptionBox />
     <CreateNewGroup />
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
+    <Content1 />
     <Footer />
+
     </>
   );
 }

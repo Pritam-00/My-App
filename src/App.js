@@ -9,7 +9,6 @@ import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from './resources/bhrigu-lake.webp';
 import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
 import HeroBanner from "./components/Hero Comp/HeroBanner";
-import NavHeader from "./components/Header Comp/NavHeader";
 import Footer from "./components/Footer Comp/Footer";
 import Content1 from "./components/Content1";
 

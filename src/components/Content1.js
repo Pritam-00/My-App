@@ -95,7 +95,7 @@ export default function Content1 () {
                         you are well within the reach. If you think 
                         more strength means more fit, read this article.
                         <br></br><br></br>
-                        <a className="text-sm">Guide to Endurance: How to get fit for trek (Not Gym Strong)?</a>
+                        <p> className="text-sm"Guide to Endurance: How to get fit for trek (Not Gym Strong)?</p>
                     </li>
                     <li className="pt-2">If you love challenges, adapt accordingly,
                          and handle difficult scenarios calmly, 

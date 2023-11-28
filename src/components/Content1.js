@@ -64,14 +64,14 @@ export default function Content1 () {
                 real photo-videos and maps.
                 <br></br><br></br>
                 Here are some points which you can take in account, while 
-                understanding difficulty of routes:
+                understanding difficulty of routes: </p>
                 <ul className="list-disc pl-8">
                     <li>Steep slopes</li>
                     <li>Snowfall/rainfall chances</li>
                     <li>Tricky sections</li>
                     <li>Techincal knowlege requirements</li>
                 </ul>
-            </p>
+            
             </div>
 
             <div className="mt-4">
@@ -88,7 +88,7 @@ export default function Content1 () {
                 do you overestimate or underestimate in other life challanges,
                 all these understandings come together.         
                 <br></br><br></br>
-                let's list these here for easy understanding :
+                let's list these here for easy understanding : </p>
                 <ul className="list-disc px-8 pt-4">
                     <li>Access your fitness level keeping the 
                         preferable trek in mind, ensure that
@@ -104,7 +104,7 @@ export default function Content1 () {
                     </li>
 
                 </ul>
-            </p>
+            
             </div>
 
             <div className="mt-4">

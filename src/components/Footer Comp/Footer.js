@@ -5,21 +5,21 @@ export default function Footer () {
 <footer className="">
 
          
-            <div className="bg-gradient-to-b from-neutral-900 to-neutral-800">
-                <h2 className="p-4 uppercase
+            <div className="p-4 bg-pink-950">
+                <h2 className="uppercase
                              text-white font-bold 
-                                text-3xl">The Trail Makers</h2>
+                                text-3xl border-b-[1px]">The Trail Makers</h2>
             </div>
 
-    <div className="bg-neutral-800 pl-2 flex flex-wrap">
+    <div className="bg-gray-900 pl-2 flex flex-wrap">
 
              <div className="p-2 w-1/2 md:w-1/4 pr-10">
                 <h5 className="text-white uppercase font-medium">Treks by Season</h5>
-                <ul className="p-2 text-sm text-white">
-                        <li>Summer</li>
-                        <li>Monsoon</li>
-                        <li>Autumn</li>
-                        <li>Winter</li>
+                <ul className="pt-2 text-sm text-white">
+                        <li className="pb-1">Summer</li>
+                        <li className="pb-1">Monsoon</li>
+                        <li className="pb-1">Autumn</li>
+                        <li className="pb-1">Winter</li>
                 </ul>
             </div>
        

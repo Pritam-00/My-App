@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content1 () {
     return (
-        <section className="p-4">
+        <section className="p-4 w-5/6 items-center ml-6 sm:w-[500px]">
             <h2 className="p-2 pl-6 bg-amber-200
                             md:w-1/2 rounded-md">
                     How to Choose a Trek?
@@ -95,7 +95,7 @@ export default function Content1 () {
                         you are well within the reach. If you think 
                         more strength means more fit, read this article.
                         <br></br><br></br>
-                        <p> className="text-sm"Guide to Endurance: How to get fit for trek (Not Gym Strong)?</p>
+                        <p className="text-sm">Guide to Endurance: How to get fit for trek (Not Gym Strong)?</p>
                     </li>
                     <li className="pt-2">If you love challenges, adapt accordingly,
                          and handle difficult scenarios calmly, 

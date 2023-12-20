@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content1 () {
     return (
-        <section className="p-4 w-5/6 items-center ml-6 sm:w-[500px]">
+        <section className="p-4 items-center sm:w-[500px]">
             <h2 className="p-2 pl-6 bg-amber-200
                             md:w-1/2 rounded-md">
                     How to Choose a Trek?
@@ -25,7 +25,7 @@ export default function Content1 () {
                 After 3days you reach an intermediate diffcult 
                 day, today we have a 2000ft climb, but you don't 
                 feel confident, doubts fill your mind, would 
-                you go or not...<br></br><br></br>
+                you go or not...<br/><br/>
 
                 The real story of yours doesn't need to be 
                 like this or any more scarier. Trekking or 

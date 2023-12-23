@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import UpcomingTreks from "./components/Up Treks Comp/UpcomingTreks";
 import TrekCardsBox from "./components/Up Treks Comp/TrekCardsBox";
 import DescriptionBox from "./components/DescriptionBox";
@@ -54,20 +54,22 @@ const mockdata = [
   }  
 ]
 
-function App() {
+export default function App() {
+
+  const [hamburgerOpen, setHamburgerOpen] = useState(false)
+
+  function toggleHamburger() {
+      setHamburgerOpen(!hamburgerOpen) }
   
   return (
-   <>
-    <HeroBanner />
+   <div className={` ${hamburgerOpen ? 'h-screen overflow-hidden' : 'overflow-auto'}`}>
+    <HeroBanner isOpen={hamburgerOpen} menuClick={toggleHamburger}/>
     <DescriptionBox />
     <CreateNewGroup />
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
     <Content1 />
     <Footer />
-
-    </>
+    </div>
   );
 }
-
-export default App;

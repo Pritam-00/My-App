@@ -2,11 +2,12 @@ import React from "react";
 import backGround from "../../resources/camping_01.webp"
 import NavHeader from "../Header Comp/NavHeader";
 
-export default function HeroBanner () {
+export default function HeroBanner ({isOpen, menuClick}) {
     return (
-    <div className="relative">
+    <div className="relative ">
 
-        <NavHeader />
+        <NavHeader isOpen={isOpen} menuClick={menuClick}/>
+
         <div className=" h-[80vh] bg-cover bg-center p-8 pt-40
                          flex flex-col justify-start
                          items-center" style={{backgroundImage: `url(${backGround})`}}> 

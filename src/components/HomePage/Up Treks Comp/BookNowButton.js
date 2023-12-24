@@ -12,6 +12,7 @@ export default function BookNowButton ({onButtonClick, isOpen, buttonName}) {
                                         text-white
                                         font-medium
                                         bg-sky-600
+                                        
                                         ">
                         {buttonName}
                     </button>
@@ -22,7 +23,7 @@ export default function BookNowButton ({onButtonClick, isOpen, buttonName}) {
                                                 right-0
                                                 bottom-0
                                                 rounded-lg
-                                                rounded-ee-2xl
+                                                rounded-ee-2xl                                             
                                                 "> 
                                         <div onClick={onButtonClick} 
                                         className=" p-2
@@ -30,7 +31,8 @@ export default function BookNowButton ({onButtonClick, isOpen, buttonName}) {
                                                     inline-block
                                                     font-bold
                                                     text-lg
-                                                    text-white">X</div>
+                                                    text-white
+                                                    ">X</div>
                                                 
                                 </div>)}
 

@@ -17,7 +17,8 @@ export default function TrekCardsBox ({mockdata}) {
                         overflow-x-auto
                         no-scrollbar
                         snap-start
-                        bg-black">
+                        bg-black
+                        ">
                 <TrekCard {...mockdata[0]} onButtonClick={() => handleClick('0')} isOpen={reading==='0'? isOpen:false}/>
 
                 <TrekCard {...mockdata[1]} onButtonClick={() => handleClick('1')} isOpen={reading==='1'? isOpen:false}/>

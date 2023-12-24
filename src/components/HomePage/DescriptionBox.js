@@ -9,9 +9,11 @@ export default function DescriptionBox () {
         }
     return (
         <>
-        <div className="bg-red-500 relative">
-            <h2 className="uppercase font-bold text-4xl p-6">The Idea That Created</h2>
-            <p className={`text-white mt-4 mx-4 md:mx-8 md:mr-80 lg:pr-60 ${isClicked? 'pb-20':'max-h-96 overflow-hidden ' }`}>
+        <div className=" font-roboto font-light relative ">
+            <h2 className=" text-stone-600 font-roboto font-semibold text-3xl 
+                            mx-4 mb-2 mt-6 md:ml-20 lg:ml-60">The idea that created</h2>
+            <div className="h-1 w-16 ml-4 md:ml-20 lg:ml-60 bg-orange-400"></div>
+            <p className={` mt-6 mx-4 md:mx-20 lg:mx-60 ${isClicked? 'pb-20':'max-h-96 overflow-hidden ' }`}>
                 
                 The inception of “The Trail Makers” emerged from a profound love for the 
                 Indian Himalayas and a burning desire to unearth its hidden treasures. 

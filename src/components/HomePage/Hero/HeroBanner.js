@@ -1,6 +1,6 @@
 import React from "react";
-import backGround from "../../resources/camping_01.webp"
-import NavHeader from "../Header Comp/NavHeader";
+import backGround from "../../../resources/camping_01.webp";
+import NavHeader from "../../Header Comp/NavHeader";
 
 export default function HeroBanner ({isOpen, menuClick}) {
     return (

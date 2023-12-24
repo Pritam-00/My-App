@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import UpcomingTreks from "./components/Up Treks Comp/UpcomingTreks";
-import TrekCardsBox from "./components/Up Treks Comp/TrekCardsBox";
-import DescriptionBox from "./components/DescriptionBox";
-import CreateNewGroup from "./components/CreateNewGroup";
+import UpcomingTreks from "./components/HomePage/Up Treks Comp/UpcomingTreks";
+import TrekCardsBox from "./components/HomePage/Up Treks Comp/TrekCardsBox";
+import DescriptionBox from "./components/HomePage/DescriptionBox";
+import CreateNewGroup from "./components/HomePage/CreateNewGroup";
+import HeroBanner from "./components/HomePage/Hero/HeroBanner";
+import Footer from "./components/Footer Comp/Footer";
+import Content1 from "./components/HomePage/Content1";
 
 
 import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from './resources/bhrigu-lake.webp';
 import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
-import HeroBanner from "./components/Hero Comp/HeroBanner";
-import Footer from "./components/Footer Comp/Footer";
-import Content1 from "./components/Content1";
 
 
 const mockdata = [
@@ -63,11 +63,12 @@ export default function App() {
   
   return (
    <div className={` ${hamburgerOpen ? 'h-screen overflow-hidden' : 'overflow-auto'}`}>
+    <div className="top-0 right-0 absolute h-screen flex items-center bg-slate-700 z-40"></div>
     <HeroBanner isOpen={hamburgerOpen} menuClick={toggleHamburger}/>
     <DescriptionBox />
-    <CreateNewGroup />
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
+    <CreateNewGroup />
     <Content1 />
     <Footer />
     </div>

@@ -28,12 +28,16 @@ export default function NavHeader ({isOpen, menuClick}) {
                 <li className="pr-4 max-md:pb-4 max-md:text-2xl
                                 md:text-lg md:font-semibold md:text-white">Courses</li>
                 <li className="pr-4 max-md:pb-4 max-md:text-2xl
-                                md:text-lg md:font-semibold md:text-white">Learn Mountain</li>
+                                md:text-lg md:font-semibold md:text-white">Mountain Lessons</li>
                 <li className="pr-4 max-md:pb-4 max-md:text-2xl
                                 md:text-lg md:font-semibold md:text-white">FAQs</li>
-                <li className="pr-4 max-md:pb-4 max-md:text-2xl
+                <li className="pr-4 max-md:pb-4 max-md:text-2xl 
                                 md:text-lg md:font-semibold md:text-white">Enquire</li>
+                <li className="max-md:mt-20 max-md:mx-4
+                                max-md:border-t-[1px] max-md:border-slate-500 ">
+                                    Instagram</li>
             </ul>
+            
             <div className="z-20" onClick={menuClick}>
                 <Hamburger isOpen={isOpen}/>
             </div>

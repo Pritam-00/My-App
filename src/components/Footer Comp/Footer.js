@@ -5,17 +5,18 @@ export default function Footer () {
 <footer className="">
 
          
-            <div className="p-4 bg-pink-950">
-                <h2 className="uppercase
-                             text-white font-bold 
-                                text-3xl border-b-[1px]">The Trail Makers</h2>
+            <div className="px-6 pt-8 bg-neutral-800 text-orange-400">
+                
+                <h2 className=" font-poppins
+                              font-bold text-3xl ">The Trail Makers</h2>
+                <p>follow us on Instagram @the_trail_makers</p>
             </div>
 
-    <div className="bg-gray-900 pl-2 flex flex-wrap">
+    <div className="bg-neutral-800 p-8 flex flex-wrap">
 
-             <div className="p-2 w-1/2 md:w-1/4 pr-10">
+             <div className="p-2 w-1/2 md:w-1/4 sm:pr-10">
                 <h5 className="text-white uppercase font-medium">Treks by Season</h5>
-                <ul className="pt-2 text-sm text-white">
+                <ul className="p-2 text-sm font-sans font-extralight text-white">
                         <li className="pb-1">Summer</li>
                         <li className="pb-1">Monsoon</li>
                         <li className="pb-1">Autumn</li>
@@ -25,7 +26,7 @@ export default function Footer () {
        
              <div className="p-2 w-1/2 md:w-1/4 sm:pr-10">
                 <h5 className="text-white uppercase font-medium">Treks by Month</h5>
-                <ul className="p-2 text-sm flex text-white">
+                <ul className="p-2 text-sm text-white flex font-sans font-extralight ">
                 <span className="pr-4">  <li>January</li>
                         <li>Februry</li>
                         <li>March</li>
@@ -45,19 +46,19 @@ export default function Footer () {
 
              <div className="p-2 w-1/2 md:w-1/4 pr-10">
                 <h5 className="text-white uppercase font-medium">Treks by Difficulty</h5>
-                <ul className="p-2 text-sm text-white ">
-                        <li>Easy (0-1)</li>
-                        <li>Easy Moderate (1-1.5)</li>
-                        <li>Moderate (1.5-2.5)</li>
-                        <li>Moderate Difficult (2.5-3)</li>
-                        <li>Difficult (3-4)</li>
-                        <li>Extreme (4-5)</li>
+                <ul className="p-2 text-sm font-sans font-extralight text-white">
+                        <li>Easy </li>
+                        <li>Easy Moderate </li>
+                        <li>Moderate </li>
+                        <li>Moderate Difficult </li>
+                        <li>Difficult </li>
+                        <li>Extreme </li>
                 </ul>
             </div>
 
              <div className="p-2 w-1/2 md:w-1/4 sm:pr-10">
                 <h5 className="text-white uppercase font-medium">Treks by State</h5>
-                <ul className="p-2 text-sm text-white">
+                <ul className="p-2 text-sm font-sans font-extralight text-white">
                         <li>Himachal</li>
                         <li>Uttarakhand</li>
                         <li>kashmir</li>
@@ -68,14 +69,14 @@ export default function Footer () {
             </div>
     </div>
 
-    <div className="bg-gradient-to-t from-neutral-900 to-neutral-800 text-white">
+    <div className=" pt-2 bg-black text-center text-sm font-sans font-extralight text-sky-200">
         <ul>
             <li>Terms & Condition</li>
         </ul>
 
     </div>
 
-    <div className="bg-gray-600 text-xs pl-4 p-1">Copyright &copy; 2024 The Trail Makers</div>
+    <div className="pb-2 bg-black text-center text-sm font-sans font-extralight text-sky-200">Copyright &copy; 2024 The Trail Makers</div>
 </footer>
     )
 }

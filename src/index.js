@@ -3,10 +3,38 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Layout from './Layout';
+import TrekPage from './components/TrekPage/TrekPage';
+
+const router = createBrowserRouter ([
+    {
+        path: '/',
+        element: <Layout/>,
+        children: [
+            {
+                path: '',
+                element: <App/>
+            },
+
+            {
+                path: 'Trekkings',
+                element: <TrekPage/>
+            }
+
+        ]
+    }
+
+])
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <RouterProvider router={router}/>
 );
 
 // If you want to start measuring performance in your app, pass a function

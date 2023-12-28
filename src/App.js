@@ -62,8 +62,7 @@ export default function App() {
       setHamburgerOpen(!hamburgerOpen) }
   
   return (
-   <div className={` ${hamburgerOpen ? 'h-screen overflow-hidden' : 'overflow-auto'}`}>
-    <div className="top-0 right-0 absolute h-screen flex items-center bg-slate-700 z-40"></div>
+   <div className={`${hamburgerOpen ? 'h-screen overflow-hidden' : 'overflow-auto'}`}>
     <HeroBanner isOpen={hamburgerOpen} menuClick={toggleHamburger}/>
     <DescriptionBox />
     <UpcomingTreks />

@@ -2,7 +2,7 @@ import React from "react";
 import icon from "../../resources/android-icon-96x96.png"
 import Hamburger from "./Hamburger";
 
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export default function NavHeader ({isOpen, menuClick}) {
 
 

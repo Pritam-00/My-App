@@ -12,6 +12,8 @@ import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from './resources/bhrigu-lake.webp';
 import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
 
+import { RouterProvider } from 'react-router-dom';
+
 
 const mockdata = [
   {

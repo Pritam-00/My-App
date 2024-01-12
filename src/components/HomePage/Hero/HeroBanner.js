@@ -21,6 +21,8 @@ export default function HeroBanner () {
                             text-white
                             font-serif text-center">Good Things Take Time
             </h2>
+            <h2 className="text-white">so, this site is currently under development</h2>
+            <h2 className="text-white bg-red-400 p-2 text-xl font-semibold w-full text-center mt-10">probable release date, 1st April</h2>
             <button className="border-solid border-[1px] mt-16 text-white
                                 border-white p-2">Read More</button>
         </div>

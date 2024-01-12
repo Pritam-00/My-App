@@ -1,16 +1,16 @@
 import React from "react";
 
-import UpcomingTreks from "./components/HomePage/Up Treks Comp/UpcomingTreks";
-import TrekCardsBox from "./components/HomePage/Up Treks Comp/TrekCardsBox";
-import DescriptionBox from "./components/HomePage/DescriptionBox";
-import CreateNewGroup from "./components/HomePage/CreateNewGroup";
-import HeroBanner from "./components/HomePage/Hero/HeroBanner";
-import Content1 from "./components/HomePage/Content1";
+import UpcomingTreks from "../HomePage/Up Treks Comp/UpcomingTreks"
+import TrekCardsBox from "../HomePage/Up Treks Comp/TrekCardsBox";
+import DescriptionBox from "../HomePage/TTMIntro/TTMIntro";
+import CreateNewGroup from "../HomePage/CreateNewGroup/CreateNewGroup";
+import HeroBanner from "../HomePage/Hero/HeroBanner";
+import Content1 from "../HomePage/Content/Content1";
 
 
-import ranisuiBanner from './resources/Rani-Sui-Lake-Trek-Manali2.webp';
-import bhiguLakeBanner from './resources/bhrigu-lake.webp';
-import hamptaPassBanner from './resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
+import ranisuiBanner from '../../resources/Rani-Sui-Lake-Trek-Manali2.webp';
+import bhiguLakeBanner from '../../resources/bhrigu-lake.webp';
+import hamptaPassBanner from '../../resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
 
 
 
@@ -55,7 +55,7 @@ const mockdata = [
   }  
 ]
 
-export default function App() {
+export default function HomePage() {
 
 
 

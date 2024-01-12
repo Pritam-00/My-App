@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function DescriptionBox () {
+export default function TTMIntro () {
 
         const [isClicked, setIsClicked] = useState(false)
 

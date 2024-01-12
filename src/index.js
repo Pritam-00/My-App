@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -8,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './Layout';
 import TrekPage from './components/TrekPage/TrekPage';
 import Error from './components/Error/Error';
+import HomePage from './components/HomePage/HomePage';
 
 
 const router = createBrowserRouter ([
@@ -17,7 +17,7 @@ const router = createBrowserRouter ([
         children: [
             {
                 path: '',
-                element: <App/>
+                element: <HomePage/>
             },
 
             {

@@ -4,8 +4,11 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 import Layout from './Layout';
 import TrekPage from './components/TrekPage/TrekPage';
+import Error from './components/Error/Error';
+
 
 const router = createBrowserRouter ([
     {
@@ -20,21 +23,27 @@ const router = createBrowserRouter ([
             {
                 path: 'Trekkings',
                 element: <TrekPage/>
-            }
+            },
+
 
         ]
+    },
+
+    {
+        path: "*",
+        element: <Error/>
     }
+
 
 ])
 
 
 
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <RouterProvider router={router}/>
+   
+        <RouterProvider router={router}/>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function

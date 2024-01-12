@@ -2,11 +2,11 @@ import React from "react";
 import backGround from "../../../resources/camping_01.webp";
 import NavHeader from "../../Header Comp/NavHeader";
 
-export default function HeroBanner ({isOpen, menuClick}) {
+export default function HeroBanner () {
     return (
     <div className="relative ">
 
-        <NavHeader isOpen={isOpen} menuClick={menuClick}/>
+        <NavHeader/>
 
         <div className=" h-[80vh] bg-cover bg-center p-8 pt-40
                          flex flex-col justify-start
@@ -19,7 +19,7 @@ export default function HeroBanner ({isOpen, menuClick}) {
             </h3>
             <h2 className=" text-5xl mx-4
                             text-white
-                            font-serif text-center">Ranisui lake
+                            font-serif text-center">Good Things Take Time
             </h2>
             <button className="border-solid border-[1px] mt-16 text-white
                                 border-white p-2">Read More</button>

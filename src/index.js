@@ -8,6 +8,7 @@ import Layout from './Layout';
 import TrekPage from './components/TrekPage/TrekPage';
 import Error from './components/Error/Error';
 import HomePage from './components/HomePage/HomePage';
+import CreateGroup from './components/CreateGroup/CreateGroup';
 
 
 const router = createBrowserRouter ([
@@ -24,7 +25,10 @@ const router = createBrowserRouter ([
                 path: 'Trekkings',
                 element: <TrekPage/>
             },
-
+            {
+                path: 'create-group',
+                element: <CreateGroup/>
+            }
 
         ]
     },

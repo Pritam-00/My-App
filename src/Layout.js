@@ -7,8 +7,8 @@ import useStore from "./Store/store";
 
 export default function Layout() {
 
-    const {hamburgerOpen, toggleHamburger} = useStore((state) => {
-        return {hamburgerOpen: state.hamburgerOpen, toggleHamburger: state.toggleHamburger}
+    const {hamburgerOpen} = useStore((state) => {
+        return {hamburgerOpen: state.hamburgerOpen}
       })
 
     return (

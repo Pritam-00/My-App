@@ -1,8 +1,8 @@
 import React from "react";
 
 import UpcomingTreks from "../HomePage/Up Treks Comp/UpcomingTreks"
+import TTMIntro from "../HomePage/TTMIntro/TTMIntro";
 import TrekCardsBox from "../HomePage/Up Treks Comp/TrekCardsBox";
-import DescriptionBox from "../HomePage/TTMIntro/TTMIntro";
 import CreateNewGroup from "../HomePage/CreateNewGroup/CreateNewGroup";
 import HeroBanner from "../HomePage/Hero/HeroBanner";
 import Content1 from "../HomePage/Content/Content1";
@@ -62,7 +62,7 @@ export default function HomePage() {
   return (
     <div>
     <HeroBanner/>
-    <DescriptionBox />
+    <TTMIntro/>
     <UpcomingTreks />
     <TrekCardsBox mockdata={mockdata}  />
     <CreateNewGroup />

@@ -5,10 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import Layout from './Layout';
-import TrekPage from './components/TrekPage/TrekPage';
 import Error from './components/Error/Error';
 import HomePage from './components/HomePage/HomePage';
 import CreateGroup from './components/CreateGroup/CreateGroup';
+import BhriguLakeTrek from './components/TrekPage/BhriguLakeTrek';
 
 
 const router = createBrowserRouter ([
@@ -22,8 +22,8 @@ const router = createBrowserRouter ([
             },
 
             {
-                path: 'Trekkings',
-                element: <TrekPage/>
+                path: 'bhrigu-lake-trek',
+                element: <BhriguLakeTrek/>
             },
             {
                 path: 'create-group',

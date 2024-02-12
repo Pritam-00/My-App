@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BookNowButton from "./BookNowButton";
 
 
-export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, trekName, trekState, trekDescription, trekDistance, trekDuration, trekDifficulty, trekCost, trekInfo}) {
+export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, trekName, trekState, trekDescription, trekDistance, trekDuration, trekDifficulty, trekCost, trekInfo, trekLink}) {
 
     return (
         <div className="m-4 
@@ -13,10 +14,11 @@ export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, tre
                         
                         ">
 
-                <img 
+                <Link to={trekLink}><img 
                 src={trekImg} 
                 alt={trekName} 
                 className =" h-44 w-72 object-cover rounded-t-xl p-2" ></img>
+                </Link>
          
 
             <div className="border-b-[1px]

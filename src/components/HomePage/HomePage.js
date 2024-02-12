@@ -26,6 +26,7 @@ const mockdata = [
     trekDifficulty: '0.7',
     trekCost: '9,500',
     trekInfo: 'stay included',
+    trekLink: '/ranisui-lake-trek',
   }  ,
 
   {
@@ -39,6 +40,7 @@ const mockdata = [
     trekDifficulty: '0.6',
     trekCost: '9,500',
     trekInfo: 'transport included',
+    trekLink: '/bhrigu-lake-trek',
   }  ,
 
   {
@@ -52,6 +54,7 @@ const mockdata = [
     trekDifficulty: '0.5',
     trekCost: '10,500',
     trekInfo: 'transport included',
+    trekLink: 'hampta-pass-trek',
   }  
 ]
 

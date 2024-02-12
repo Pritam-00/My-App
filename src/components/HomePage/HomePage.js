@@ -10,8 +10,8 @@ import Content1 from "../HomePage/Content/Content1";
 
 import ranisuiBanner from '../../resources/Rani-Sui-Lake-Trek-Manali2.webp';
 import bhiguLakeBanner from '../../resources/bhrigu-lake.webp';
-import hamptaPassBanner from '../../resources/Hampta-Pass-Trek-JustWravel-1597385327-11.jpg';
-
+import hamptaPassBanner from '../../resources/Hampta-Pass-Trek.jpg';
+import yunamBannerPhoto from '../../resources/Yunam-Mock.jpg';
 
 
 const mockdata = [
@@ -55,7 +55,21 @@ const mockdata = [
     trekCost: '10,500',
     trekInfo: 'transport included',
     trekLink: 'hampta-pass-trek',
-  }  
+  }  ,
+
+  {
+      trekIndex: 104 ,
+      trekImg: yunamBannerPhoto,
+      trekName: 'Yunam Peak Expedition',
+      trekState: 'Himachal',
+      trekDescription: 'Anali,220ft) and a alpine lake (12,385ft). A moderate trek with a 360 degree view of  stunning peaks, best explored from May to December.',
+      trekDistance: '40km',
+      trekDuration: '9Days',
+      trekDifficulty: '6',
+      trekCost: '25,000',
+      trekInfo: 'transport included',
+      trekLink: '/yunam-peak-expedition', 
+  }
 ]
 
 export default function HomePage() {

@@ -8,7 +8,8 @@ import Layout from './Layout';
 import Error from './components/Error/Error';
 import HomePage from './components/HomePage/HomePage';
 import CreateGroup from './components/CreateGroup/CreateGroup';
-import BhriguLakeTrek from './components/TrekPage/BhriguLakeTrek';
+import BhriguLakeTrek from './components/TrekPages/Bhrigu Lake Trek/BhriguLakeTrek';import YunamPeakExpedition from './components/TrekPages/Yunam Peak Expedition/YunamPeakExpedition';
+;
 
 
 const router = createBrowserRouter ([
@@ -28,6 +29,10 @@ const router = createBrowserRouter ([
             {
                 path: 'create-group',
                 element: <CreateGroup/>
+            },
+            {
+                path: 'yunam-peak-expedition',
+                element: <YunamPeakExpedition/>
             }
 
         ]

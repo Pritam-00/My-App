@@ -24,6 +24,8 @@ export default function TrekCardsBox ({mockdata}) {
                 <TrekCard {...mockdata[1]} onButtonClick={() => handleClick('1')} isOpen={reading==='1'? isOpen:false}/>
 
                 <TrekCard {...mockdata[2]} onButtonClick={() => handleClick('2')} isOpen={reading==='2'? isOpen:false}/>
+                
+                <TrekCard {...mockdata[3]} onButtonClick={() => handleClick('3')} isOpen={reading==='2'? isOpen:false}/>
                 </div>
     )
 }

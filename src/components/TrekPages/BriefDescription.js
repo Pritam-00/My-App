@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BriefDescription() {
   return (
-    < div className="bg-yellow-100">
+    < div className="bg-yellow-100 font-basierCircle ">
       <div className="p-4">
         <h2 className="py-5 text-2xl font-semibold text-neutral-800">
           A Short Yet Adventurous Trek At The Backyard Of Manali

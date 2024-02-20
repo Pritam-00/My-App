@@ -6,6 +6,8 @@ module.exports = {
       fontFamily : {
         roboto: ["Roboto", "sans-sarif"],
         poppins: ["Poppins", "sans-sarif"],
+        basierCircle: ["Basier-Circle", "sans-sarif"],
+        basierSquare: ["Basier-Square", "Basier Circle", "sans-sarif"],
       }
     },
   },

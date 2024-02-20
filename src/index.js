@@ -8,8 +8,10 @@ import Layout from './Layout';
 import Error from './components/Error/Error';
 import HomePage from './components/HomePage/HomePage';
 import CreateGroup from './components/CreateGroup/CreateGroup';
-import BhriguLakeTrek from './components/TrekPages/Bhrigu Lake Trek/BhriguLakeTrek';import YunamPeakExpedition from './components/TrekPages/Yunam Peak Expedition/YunamPeakExpedition';
-;
+import BhriguLakeTrek from './components/TrekPages/Bhrigu Lake Trek/BhriguLakeTrek';
+import YunamPeakExpedition from './components/TrekPages/Yunam Peak Expedition/YunamPeakExpedition';
+import RanisuiLakeTrek from './components/TrekPages/Ranisui Lake Trek/RanisuiLakeTrek';
+import HamptaPassTrek from './components/TrekPages/Hampta Pass Trek/HamptaPassTrek';
 
 
 const router = createBrowserRouter ([
@@ -23,16 +25,28 @@ const router = createBrowserRouter ([
             },
 
             {
-                path: 'bhrigu-lake-trek',
-                element: <BhriguLakeTrek/>
-            },
-            {
                 path: 'create-group',
                 element: <CreateGroup/>
             },
+
+            {
+                path: 'bhrigu-lake-trek',
+                element: <BhriguLakeTrek/>
+            },
+
             {
                 path: 'yunam-peak-expedition',
                 element: <YunamPeakExpedition/>
+            },
+
+            {
+                path: 'ranisui-lake-trek',
+                element: <RanisuiLakeTrek/>
+            },
+
+            {
+                path: 'hampta-pass-trek',
+                element: <HamptaPassTrek/>
             }
 
         ]

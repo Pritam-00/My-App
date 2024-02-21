@@ -8,6 +8,10 @@ module.exports = {
         poppins: ["Poppins", "sans-sarif"],
         basierCircle: ["Basier-Circle", "sans-sarif"],
         basierSquare: ["Basier-Square", "Basier Circle", "sans-sarif"],
+      },
+
+      dropShadow : {
+        'special' : '0 15px 15px rgba(0, 0, 0, 0.55)',
       }
     },
   },

@@ -74,7 +74,7 @@ export default function Content1 () {
             
             </div>
 
-            <div className="pt-6 p-4 bg-amber-200">
+            <div className="pt-6 p-4 bg-amber-50">
             <h5 className="ml-2 px-2 rounded-lg inline-block bg-red-200">Idea 2</h5>
             <h4 className="font-semibold p-2 pr-6 text-neutral-800">
                 How To Understand Yourself ?

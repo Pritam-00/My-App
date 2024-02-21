@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Content1 () {
     return (
-        <section className="p-4 items-center sm:w-[500px]">
-            <h2 className="p-2 pl-6 bg-amber-200
+        <section className="items-center sm:w-[500px]">
+            <h2 className="p-2 m-4 pl-6 bg-amber-200
                             md:w-1/2 rounded-md">
                     How to Choose a Trek?
             </h2>
-            <p className="p-2">Suppose you were scrolling through the 
+            <p className="p-2 m-4">Suppose you were scrolling through the 
                 internet in your leisure time and found 
                 a beautiful photo of a big snow field, 
                 and you decided for youself that is the place you want
@@ -41,8 +41,8 @@ export default function Content1 () {
 
             </p>
 
-            <div className="mt-4">
-            <h5 className="ml-2 px-2 rounded-lg inline-block bg-red-200">Idea 1</h5>
+            <div className="mt-4 p-4 pb-6 bg-zinc-300">
+            <h5 className="pl-2 px-2 rounded-lg inline-block bg-red-200">Idea 1</h5>
             <h4 className="font-semibold p-2 pr-6 text-neutral-800">
                 How To Understand Difficulty Level of a Trek ?
             </h4>
@@ -74,7 +74,7 @@ export default function Content1 () {
             
             </div>
 
-            <div className="mt-4">
+            <div className="pt-6 p-4 bg-amber-200">
             <h5 className="ml-2 px-2 rounded-lg inline-block bg-red-200">Idea 2</h5>
             <h4 className="font-semibold p-2 pr-6 text-neutral-800">
                 How To Understand Yourself ?
@@ -107,12 +107,6 @@ export default function Content1 () {
             
             </div>
 
-            <div className="mt-4">
-            <h5 className="ml-2 px-2 rounded-lg inline-block bg-red-200">Idea 3</h5>
-            <h4 className="font-semibold p-2 pr-6 text-neutral-800">
-                Choose a season you prefer.
-            </h4>
-            </div>
         </section>
     )
 }

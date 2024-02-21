@@ -2,8 +2,8 @@ import React from "react";
 
 export default function BriefDescription() {
   return (
-    < div className="bg-yellow-50 font-basierCircle ">
-      <div className="p-4">
+    < div className="p-4 bg-yellow-50 font-basierCircle ">
+
         <h2 className="py-5 text-2xl font-semibold text-neutral-800">
           A Short Yet Adventurous Trek At The Backyard Of Manali
         </h2>
@@ -27,7 +27,6 @@ export default function BriefDescription() {
           our childhood, as we slowly lay down and somehow brings us close to
           what we really are and to the earth.</b>
         </p>
-      </div>
     </div>
   );
 }

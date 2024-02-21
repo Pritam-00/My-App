@@ -2,6 +2,7 @@ import React from "react";
 import TrekBanner from "../TrekBanner";
 import ranisuiBanner from "../../../resources/Rani-Sui-Lake-Trek-Manali2.webp";
 import BriefDescription from "../BriefDescription";
+import GroupDates from "../GroupDates";
 
 
 const mockdata = [
@@ -20,11 +21,26 @@ const mockdata = [
   }
   ]
 
+  const trekdates = [
+    {trekGroupStartDate: '8th July',
+    trekGroupFinishDate: '12th July',},
+
+    {trekGroupStartDate: '9th September',
+    trekGroupFinishDate: '13th September',},
+
+    {trekGroupStartDate: '14th October',
+    trekGroupFinishDate: '18th October',},
+
+    {trekGroupStartDate: '4th November',
+    trekGroupFinishDate: '8th November',},
+  ]
+
 export default function RanisuiLakeTrek() {
     return(
-        <>
+        <div>
         <TrekBanner {...mockdata[0]} />
         <BriefDescription/>
-        </>
+        <GroupDates trekdates={trekdates}/>
+        </div>
     )
 }

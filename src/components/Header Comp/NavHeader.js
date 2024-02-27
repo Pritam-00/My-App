@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../../resources/android-icon-96x96.png"
+import icon from "../../resources/The_Trail_Makers_282.png"
 import Hamburger from "./Hamburger";
 
 import { NavLink } from "react-router-dom";

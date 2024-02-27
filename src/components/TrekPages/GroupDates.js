@@ -1,5 +1,6 @@
 import React from "react";
 import SingleDate from "./SingleDate";
+import { Link } from "react-router-dom";
 
 export default function GroupDates({ trekdates }) {
   return (
@@ -10,10 +11,10 @@ export default function GroupDates({ trekdates }) {
         no-scrollbar
         snap-start h-full"
       >
-        <SingleDate {...trekdates[0]} />
-        <SingleDate {...trekdates[1]} />
-        <SingleDate {...trekdates[2]} />
-        <SingleDate {...trekdates[3]} />
+        <Link to="/create-group"><SingleDate {...trekdates[0]} /></Link>
+        <Link to="/create-group"><SingleDate {...trekdates[1]} /></Link>
+        <Link to="/create-group"><SingleDate {...trekdates[2]} /></Link>
+        <Link to="/create-group"><SingleDate {...trekdates[3]} /></Link>
       </div>
 
       <div className="px-4 font-basierCircle bg-transparent absolute top-32">

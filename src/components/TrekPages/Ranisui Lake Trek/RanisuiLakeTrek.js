@@ -3,6 +3,7 @@ import TrekBanner from "../TrekBanner";
 import ranisuiBanner from "../../../resources/Rani-Sui-Lake-Trek-Manali2.webp";
 import BriefDescription from "../BriefDescription";
 import GroupDates from "../GroupDates";
+import TrekItinerary from "../TrekItinerary";
 
 
 const mockdata = [
@@ -41,6 +42,7 @@ export default function RanisuiLakeTrek() {
         <TrekBanner {...mockdata[0]} />
         <BriefDescription/>
         <GroupDates trekdates={trekdates}/>
+        <TrekItinerary/>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function GroupDates({ trekdates }) {
   return (
-    <div className="relative h-40">
+    <div className="relative h-40 mb-4">
       <div
         className="flex 
         overflow-x-auto
@@ -19,7 +19,7 @@ export default function GroupDates({ trekdates }) {
 
       <div className="px-4 font-basierCircle bg-transparent absolute top-32">
         <span className="font-semibold">Create your own group.</span>
-        <span className="font-semibold text-amber-600"> Click here.</span>
+       <Link to={"/create-group"}><span className="font-semibold text-amber-600"> Click here.</span> </Link>
       </div>
     </div>
   );

@@ -1,14 +1,14 @@
 import React from "react";
 
-import UpcomingTreks from "../HomePage/Up Treks Comp/UpcomingTreks"
-import TTMIntro from "../HomePage/TTMIntro/TTMIntro";
-import TrekCardsBox from "../HomePage/Up Treks Comp/TrekCardsBox";
-import CreateNewGroup from "../HomePage/CreateNewGroup/CreateNewGroup";
-import HeroBanner from "../HomePage/Hero/HeroBanner";
-import Content1 from "../HomePage/Content/Content1";
+import UpcomingTreks from "./Up Treks Comp/UpcomingTreks"
+import TTMIntro from "./TTMIntro/TTMIntro";
+import TrekCardsBox from "./Up Treks Comp/TrekCardsBox";
+import CreateNewGroup from "./CreateNewGroup/CreateNewGroup";
+import HeroBanner from "./Hero/HeroBanner";
+import Content1 from "./Content/Content1";
 
 
-import ranisuiBanner from '../../resources/Rani-Sui-Lake-Trek-Manali2.webp';
+import ranisuiBanner from '../../resources/ranisui-lake.jpg';
 import bhiguLakeBanner from '../../resources/bhrigu-lake.webp';
 import hamptaPassBanner from '../../resources/Hampta-Pass-Trek.jpg';
 import yunamBannerPhoto from '../../resources/Yunam-Mock.jpg';
@@ -72,7 +72,7 @@ const mockdata = [
   }
 ]
 
-export default function HomePage() {
+export default function Home() {
 
 
 

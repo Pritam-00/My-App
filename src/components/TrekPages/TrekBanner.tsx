@@ -1,7 +1,7 @@
 import React from "react";
 import NavHeader from "../Header Comp/NavHeader";
 
-export default function TrekBanner({ trekName, trekImg }) {
+export default function TrekBanner({ trekName, trekImg }: any) {
   return (
     <div className="relative ">
       <NavHeader />

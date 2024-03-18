@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import BookNowButton from "./BookNowButton";
 
 
-export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, trekName, trekState, trekDescription, trekDistance, trekDuration, trekDifficulty, trekCost, trekInfo, trekLink}) {
+export default function TrekCard({onButtonClick, isOpen, trekIndex, trekImg, trekName, trekState, trekDescription, trekDistance, trekDuration, trekDifficulty, trekCost, trekInfo, trekLink}: any) {
 
     return (
         <div className="m-4 

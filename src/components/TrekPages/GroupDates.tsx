@@ -2,7 +2,7 @@ import React from "react";
 import SingleDate from "./SingleDate";
 import { Link } from "react-router-dom";
 
-export default function GroupDates({ trekdates }) {
+export default function GroupDates({ trekdates } : any ) {
   return (
     <div className="relative h-40 mb-4">
       <div

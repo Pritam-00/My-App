@@ -36,7 +36,7 @@ const mockdata = [
     trekGroupFinishDate: '8th November',},
   ]
 
-export default function RanisuiLakeTrek() {
+export default function Ranisui() {
     return(
         <div>
         <TrekBanner {...mockdata[0]} />

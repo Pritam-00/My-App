@@ -3,7 +3,7 @@ import React from "react";
 export default function SingleDate({
   trekGroupStartDate,
   trekGroupFinishDate,
-}) {
+}: any) {
   return (
     <div className="m-4 p-1 flex flex-row justify-between flex-shrink-0 bg-sky-500 w-48 h-24 rounded-xl drop-shadow-special">
       <div className="flex flex-col justify-evenly">

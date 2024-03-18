@@ -6,11 +6,11 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import Layout from './Layout';
 import Error from './components/Error/Error';
-import HomePage from './components/HomePage/HomePage';
+import Home from './components/HomePage/HomePage';
 import CreateGroup from './components/CreateGroup/CreateGroup';
 import BhriguLakeTrek from './components/TrekPages/Bhrigu Lake Trek/BhriguLakeTrek';
 import YunamPeakExpedition from './components/TrekPages/Yunam Peak Expedition/YunamPeakExpedition';
-import RanisuiLakeTrek from './components/TrekPages/Ranisui Lake Trek/RanisuiLakeTrek';
+import Ranisui from './components/TrekPages/Ranisui Lake Trek/RanisuiLakeTrek';
 import HamptaPassTrek from './components/TrekPages/Hampta Pass Trek/HamptaPassTrek';
 
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter ([
         children: [
             {
                 path: '',
-                element: <HomePage/>
+                element: <Home />
             },
 
             {
@@ -41,7 +41,7 @@ const router = createBrowserRouter ([
 
             {
                 path: 'ranisui-lake-trek',
-                element: <RanisuiLakeTrek/>
+                element: <Ranisui />
             },
 
             {
@@ -62,7 +62,7 @@ const router = createBrowserRouter ([
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
    
         <RouterProvider router={router}/>

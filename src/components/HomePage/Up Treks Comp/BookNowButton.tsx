@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BookNowButton ({onButtonClick, isOpen, buttonName}) {
+export default function BookNowButton ({onButtonClick, isOpen, buttonName}: any) {
     
     return (
         <div className="relative my-auto">
